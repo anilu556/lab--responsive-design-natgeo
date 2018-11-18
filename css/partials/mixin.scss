@@ -1,0 +1,7 @@
+@mixin  spacing($value){
+    letter-spacing: $value;
+}
+
+@mixin weight($value){
+  font-weight: $value;
+}

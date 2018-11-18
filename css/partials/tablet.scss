@@ -1,0 +1,96 @@
+@media screen and (min-width:768px) {
+
+  .top{
+
+    & img{
+      display: block;
+      width: 15%;
+      height: 15%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .desktop{
+     &__list{
+       display: none;
+     }
+
+     & img{
+       display: none;
+     }
+  }
+
+  .article{
+    margin-bottom: 20px;
+
+    &__box {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__image{
+      width: 60%;
+    }
+
+    &__text{
+      width: 40%;
+      padding-left: 10px;
+    }
+  }
+
+  .show{
+    height: 35px;
+    border: 2px solid black;
+    background-color: $color-amarillo;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .photo{
+
+    & img{
+      padding: 20px 100px 20px 100px;
+    }
+  }
+
+  .connect{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social{
+    width: 50%;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .second{
+    padding-left: 20px;
+  }
+  .news{
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    &__follow{
+        border-left:1px solid $gris-claro;
+        padding-left: 15px;
+        padding-top: 10px;
+        height: 100px;
+
+    }
+
+    &__us {
+      border-left:1px solid $gris-claro;
+      height: 70px;
+      padding-left: 15px;
+      padding-top: 20px;
+      margin-left: 280px;
+
+    }
+
+  }
+}

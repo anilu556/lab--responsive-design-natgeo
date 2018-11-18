@@ -1,0 +1,78 @@
+@media screen and (min-width: 1024px) {
+
+  .top__mobile{
+    display: none;
+  }
+
+  .desktop{
+    display: flex;
+    justify-content: space-between;
+
+    & img{
+      display: block;
+    }
+
+    &__list{
+     list-style: none;
+     display: flex;
+     padding: 10px;
+   }
+
+   &__logo {
+     width: 10%;
+
+   }
+
+   &__list a{
+     text-decoration: none;
+     color: #ABABAB;
+   }
+
+   &__option {
+     font-size: 18px;
+     font-weight:300;
+     padding: 0 50px;
+     border-left: 1px solid $color-amarillo;
+   }
+  }
+
+  .content{
+    padding: 50px 230px;
+  }
+
+  .connect{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo{
+
+    & img{
+      padding: 20px 100px 0 100px;
+    }
+  }
+
+  %padding-social{
+
+  }
+
+  .social{
+    width: 25%;
+    padding-left:10px;
+    padding-right:10px;
+
+    &__titles{
+      color: white;
+      font-size: 22px;
+      padding-top: 40px;
+    }
+
+    &__text{
+      color: white;
+      font-size: 16px;
+      font-family: sans-serif;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
